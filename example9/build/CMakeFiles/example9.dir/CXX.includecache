@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Sales_data.h
+iostream
+-
+string
+-
+
+../include/Screen.h
+iostream
+-
+string
+-
+
+/home/luobin2/practice/C++/example9/src/main.cpp
+iostream
+-
+vector
+-
+Sales_data.h
+/home/luobin2/practice/C++/example9/src/Sales_data.h
+Screen.h
+/home/luobin2/practice/C++/example9/src/Screen.h
+

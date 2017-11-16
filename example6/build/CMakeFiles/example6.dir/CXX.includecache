@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/jiesu.h
+iostream
+-
+string
+-
+
+/home/luobin2/practice/C++/example6/src/main.cpp
+iostream
+-
+jiesu.h
+/home/luobin2/practice/C++/example6/src/jiesu.h
+string
+-
+

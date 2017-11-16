@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -O3 -DNDEBUG    CMakeFiles/example8.dir/src/main.o CMakeFiles/example8.dir/src/Sales_data.o  -o example8 -rdynamic 

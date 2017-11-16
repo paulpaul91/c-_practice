@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/SpreadSheet.h
+SpreedSheetData.h
+-
+
+../include/SpreadSheetCell.h
+iostream
+-
+string
+-
+
+../include/SpreedSheetData.h
+SpreadSheetCell.h
+../include/SpreadSheetCell.h
+
+/home/luobin/practice/C++/example11/src/main.cpp
+iostream
+-
+string
+-
+SpreadSheet.h
+-
+

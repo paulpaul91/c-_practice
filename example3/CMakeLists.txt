@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 2.4.8)
+project(example3)
+
+INCLUDE_DIRECTORIES(include)
+
+AUX_SOURCE_DIRECTORY(src DIR_SRCS)
+SET(TEST_EXAM ${DIR_SRCS})
+
+ADD_EXECUTABLE(${PROJECT_NAME} ${TEST_EXAM})

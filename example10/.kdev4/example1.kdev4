@@ -1,0 +1,36 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x10\x00e\x00x\x00a\x00m\x00p\x00l\x00e\x001)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/luobin2/practice/C++/example1/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=opencv
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x10\x00e\x00x\x00a\x00m\x00p\x00l\x00e\x001\x00\x00\x00\x0c\x00o\x00p\x00e\x00n\x00c\x00v)
+Dependency Action=Build
+EnvironmentGroup=default
+Executable=file:///home/luobin2/practice/C++/example1/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=example1,opencv
+Use External Terminal=false
+Working Directory=
+isExecutable=false

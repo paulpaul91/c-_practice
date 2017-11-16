@@ -1,0 +1,1 @@
+/home/luobin2/practice/C++/example6/build/CMakeFiles/example6.dir

@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 2.4.8)
+project(example9)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_BUILD_TYPE Release)
+
+INCLUDE_DIRECTORIES(include)
+
+AUX_SOURCE_DIRECTORY(src DIR_SRCS)
+SET(TEST_EXAM ${DIR_SRCS})
+
+ADD_EXECUTABLE(${PROJECT_NAME} ${TEST_EXAM})

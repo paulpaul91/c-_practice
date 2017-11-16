@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -O3 -DNDEBUG    CMakeFiles/example6.dir/src/main.o CMakeFiles/example6.dir/src/jiesu.o  -o example6 -rdynamic 
