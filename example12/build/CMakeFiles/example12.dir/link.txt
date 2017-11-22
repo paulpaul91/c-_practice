@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -O3 -DNDEBUG    CMakeFiles/example12.dir/src/mclock.o CMakeFiles/example12.dir/src/main.o  -o example12 -rdynamic 
