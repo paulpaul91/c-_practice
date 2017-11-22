@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/employ.h
+iostream
+-
+string
+-
+
+../include/supervisor.h
+employ.h
+../include/employ.h
+
+/home/luobin/practice/C++/example13/src/main.cpp
+iostream
+-
+vector
+-
+supervisor.h
+/home/luobin/practice/C++/example13/src/supervisor.h
+
