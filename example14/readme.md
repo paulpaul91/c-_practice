@@ -4,7 +4,7 @@ date：2017/11/24
 <font color=green size=5>我是罗斌</font>
 <font color=red size=5>我是罗斌</font>
 <font color=blue size=5>我是罗斌</font>
-#vector使用
+# vector使用
 **快速查找手册**
 **迭代器**
 正向迭代器
@@ -116,7 +116,7 @@ typename vector<T>::iterator my_find(vector<T>& c,const T val)
 	return c.end();
 }
 ```
-##vector 支持下标运算
+## vector 支持下标运算
 ```c++
 vector<int> c
 c[i]
@@ -128,7 +128,7 @@ c.pop_back()
 //查看尾部元素
 c.back()
 ```
-##看点实际的代码理解的更daxiao方便
+## s看点实际的代码理解的更daxiao方便
 ```C++
 int main()删除元素
 {
